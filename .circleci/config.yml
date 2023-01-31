@@ -193,7 +193,7 @@ jobs:
               
               
       - run:
-          name: Add back-end ip to ansible inventory
+          name: Add the EC2 instance IP to the Ansible inventory
           command: |
           
             # Your code here
